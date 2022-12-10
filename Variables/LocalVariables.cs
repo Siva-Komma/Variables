@@ -8,14 +8,14 @@ namespace Variables
 {
     class LocalVariables
     {
-        public void Local()
+        public void LocalV(int num1,int num2)
         {
-            int var1 = 0;
-            int var2 = 0;
-            int sum;
-            sum = var1 + var2;
-            Console.WriteLine("Sum of the numbers:" +sum);
-            Console.ReadLine();
+            //int num1=0;
+          // int num2=0;
+           int sum=0;
+            sum = num1 + num2;
+            Console.WriteLine("Sum of variables: "+sum);
+            Console.ReadLine();            
             
         }
 
